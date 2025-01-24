@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCM_AU</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+</head>
+<body>
+    
+    <section class="header">
+
+        <nav>
+
+            <div class="ccm-logo">
+                <a href=""><img src="image/ccm_logo.png" alt=""></a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa ri-close-line nav_close" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="dd.html">Director Desk</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="test.html">Testing</a></li>
+                    <li><a href="consul.html">Consultancy</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+            
+                <a href="" class="anna_logo"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                <i class="fa ri-menu-line nav_burger" onclick="showMenu()"></i>
+
+        </nav>
+
+    </section>
+
+<br><br><br><br><br>
+
+<section class="testing">
+    <h2>OUR TEAM</h2>
+</section>
+    
+<section class="ppl-header">
+    <div class="ppl-head">
+        <div class="ppl-sh">
+            <h3>Director</h3>
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Director photo.jpg" alt="">
+                <h4>Dr. D. Sangeetha</h4>
+                <span>Professor, Institute for Energy Studies</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?hl=en&user=qjNekqgAAAAJ"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/117634"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ppl-sh">
+            <h3>Professor of Practice</h3>
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/GSViswanath.jpg" alt="">
+                <h4>Er. G. S. Viswanath</h4>
+                <span>PoP, Center for Composite Materials</span>
+                <div class="ppl-links">
+                    <a href="#"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="#"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Adjunct Faculty Members</h2>
+
+    <div class="ppl-tm">
+       
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Sharmeela.png" alt="">
+                <h4>Dr. C. Sharmeela</h4>
+                <span>Professor, Electrical</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com/citations?user=-YbjPxsAAAAJ&hl=en&oi=sra"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/117777"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Thenmuhil.png" alt="">
+                <h4>Dr. D. Thenmuhil</h4>
+                <span>Professor, Ceramic</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com/citations?hl=en&user=xkcWWCgAAAAJ"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/117715"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Dhurga.jpg" alt="">
+                <h4>Dr. J. Dhurga Devi</h4>
+                <span>Professor, ECE</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?user=maPFl0sAAAAJ&hl=en"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/117808"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Kamala.png" alt="">
+                <h4>Dr. J. Kamala</h4>
+                <span>Professor, ECE</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com/citations?user=jJ6kw_AAAAAJ&hl=en"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/262803"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="ppl-tm">
+       
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Gunasekaran.png" alt="">
+                <h4>Dr. M. Gunasekaran</h4>
+                <span>Associate Professor <br> Physics</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com.sg/citations?user=SKsS7GwAAAAJ&hl=en"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/397675"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Sasikala.png" alt="">
+                <h4>Dr. Sasikala Ganapathy</h4>
+                <span>Associate Professor <br> Crystal Growth</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com/citations?hl=en&user=Sf3jHZwAAAAJ"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/271234"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Elangovan.png" alt="">
+                <h4>Dr. K. Elangovan</h4>
+                <span>Associate Professor <br> Physics</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com/citations?user=IJ5CM-wAAAAJ&hl=en&oi=ao"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/117990"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Vidyalakshmi.png" alt="">
+                <h4>Dr. Y. Vidyalakshmi</h4>
+                <span>Associate Professor <br> Physics</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?hl=en&user=Mgbk0WUAAAAJ&view_op=list_works&sortby=pubdate"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/117958"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Thirumal_Azhagan.png" alt="">
+                <h4>Dr. M. Thirumal Azhagan</h4>
+                <span>Associate Professor <br> Manufacturing</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?user=LVO_J18AAAAJ&hl=en"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/117982"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <div class="ppl-tm">
+       
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Angayarkany.jpeg" alt="">
+                <h4>Dr. S. Angayarkanny</h4>
+                <span>Assistant Professor <br> Chemistry</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com/citations?hl=en&user=LNo0J_kAAAAJ"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/264298"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Adhi.png" alt="">
+                <h4>Dr. C. Adhikesavan</h4>
+                <span>Assistant Professor <br> Mechanical</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com/citations?user=TZlRMFIAAAAJ&hl=en&oi=ao"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/269843"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Nagaraaj.jpeg" alt="">
+                <h4>Dr. P. Nagaraaj</h4>
+                <span>Assistant Professor <br> Chemistry</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com/citations?user=08DRm-gAAAAJ&hl=en"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/269383"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Kalaimagal.png" alt="">
+                <h4>Dr. S. Kalaimagal</h4>
+                <span>Assistant Professor <br> Mechanical</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com/citations?hl=en&user=Y9GuN44AAAAJ"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/117637"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="ppl-tm">
+       
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Priyavarthini.png" alt="">
+                <h4>Dr. S. Priyavarthini</h4>
+                <span>Assistant Professor <br> Electrical</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com/citations?hl=en&user=JTQ6wWoAAAAJ"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/407332"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Nandhini.png" alt="">
+                <h4>Dr. K. Nandhini</h4>
+                <span>Assistant Professor <br> Civil</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?user=q_v2f4QAAAAJ&hl=en"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/406963"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Sudha.jpg" alt="">
+                <h4>Dr. S. Sudha</h4>
+                <span>Assistant Professor <br> Textile</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?user=ydGxhpAAAAAJ"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/103363"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Jayamuthunagai.png" alt="">
+                <h4>Dr. J. Jayamuthunagai</h4>
+                <span>Assistant Professor <br> Biotechnology</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?hl=en&user=P4dNvuMAAAAJ"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/117712"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="ppl-tm">
+       
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Suganya.jpeg" alt="">
+                <h4>Dr. S. Suganya Devi</h4>
+                <span>Assistant Professor <br> Aerospace</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?user=1jJZbjIAAAAJ&hl=en"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a ><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Kumaresan.png" alt="">
+                <h4>Dr. G. Kumaresan</h4>
+                <span>Assistant Professor <br> Production</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.com/citations?user=wsw45YgAAAAJ&hl=en"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/267539"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Rahima.JPG" alt="">
+                <h4>Dr. S. Rahima Shabeen</h4>
+                <span>Assistant Professor <br> Civil</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?user=2bTAEFoAAAAJ"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/118009"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Swathi.jpeg" alt="">
+                <h4>Dr. M. Swathi</h4>
+                <span>Assistant Professor <br> Ceramic</span>
+                <div class="ppl-links">
+                    <a ><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/408515"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="ppl-tm">
+       
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Renuka.jpg" alt="">
+                <h4>Dr. S. M. Renuka</h4>
+                <span>Assistant Professor <br> Civil Engineering</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?user=Rxu8yzMAAAAJ"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/118010"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Syed_Ahmed.jpeg" alt="">
+                <h4>Dr. K. I. Syed Ahmed Kabeer</h4>
+                <span>Assistant Professor <br> Architecture</span>
+                <div class="ppl-links">
+                    <a ><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/407214"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/Subhasini.jpg" alt="">
+                <h4>Dr. S. Subhashini</h4>
+                <span>Assistant Professor <br>Architecture</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?user=GAJlpQUAAAAJ"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/120825"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="ppl-sh">
+            <!-- <h3>The Director</h3> -->
+            <div class="ppl-photo">
+                <img class="sangeetha-photo" src="image/thendral thiyagu.jpg" alt="">
+                <h4>Dr. T. Thendral Thiyagu</h4>
+                <span>Assistant Professor <br> Printing Technology</span>
+                <div class="ppl-links">
+                    <a href="https://scholar.google.co.in/citations?user=nooZ_pAAAAAJ&hl=en"><img src="image/google-scholar-brands-solid.svg" alt=""></a>
+                    <a href="https://annauniv.irins.org/profile/117971"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+
+
+
+
+    <section class="footer">
+
+        <div class="section">
+            <div class="logo-footer">
+                <img src="image/ccm_logo.png" alt="">
+                <p>Innovative Design and Engineering with Composites</p>
+                <a class="contact" href="contact.html">Get In Touch</a>
+                <div class="social-media">
+                    
+                    <a class="social-media" href="https://www.linkedin.com/company/centre-for-composite-materials-ccm/about/?viewAsMember=true" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                    <a class="social-media" href="https://www.instagram.com/ccm_au/" target="_blank"><i class="ri-instagram-line"></i></a>
+                    
+                </div>
+            </div>
+            <div class="address">
+                <div>
+                    <i class="fa ri-building-line"></i>
+                    <address>
+                    <p>College of Engineering,Sardar Patel Rd, <br>Anna University,
+                        Guindy, Chennai,
+                         <br>Tamil Nadu 600025</p>
+                    </address>
+                </div>
+
+                <div>
+                    <i class="fa ri-phone-fill"></i>
+                    <p>044 2235 7602 </5><br>
+                    +91-9840203400</p>
+                </div>
+
+                <div>
+                    <i class="fa ri-mail-send-fill"></i>
+                    <p>ccmdirector@annauniv.edu <br>ccmdirectorau@gmail.com<br>sangeetha@annauniv.edu</p>
+                </div>
+            </div>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="licence">
+        <h6><i class="ri-creative-commons-line"></i><span> CC BY-SA 4.0,</span> Center for Composite Materials</h6>
+        </div>
+
+    <script src="javascript/script.js"></script>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-219px"
+        }
+
+
+        
+    </script>
+</body>
+</html>

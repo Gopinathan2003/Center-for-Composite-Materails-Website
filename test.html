@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCM_AU</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+</head>
+<body>
+    
+    <section class="header">
+
+        <nav>
+
+            <div class="ccm-logo">
+                <a href=""><img src="image/ccm_logo.png" alt=""></a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa ri-close-line nav_close" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="dd.html">Director Desk</a></li>
+                    <li><a href="ppl.html">People</a></li>
+                    <li><a href="#">Testing</a></li>
+                    <li><a href="consul.html">Consultancy</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+            
+                <a href="" class="anna_logo"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                <i class="fa ri-menu-line nav_burger" onclick="showMenu()"></i>
+
+        </nav>
+
+    </section>
+
+<br><br><br><br><br>
+    <section class="testing">
+        <h2>TESTING</h2>
+        <div class="ccm_tc">
+            <h3>CCM Tests and Charges</h3>
+            <ul>
+                <li>ASTM standards will be followed wherever necessary</li>
+                <li>Results along with interpretation will be provided as test reports wherever applicable</li>
+                <li>Test reports will be certified by Professional Engineers and Scientists of CCM</li>
+                <li>Rates provided are in Indian Rupees</li>
+                <li>GST @ 18% will be added to the basic charges</li>
+                <li>Payments should be made in favour of: <br>
+                    <b>“The Director, CSRC, Anna University, Chennai 25”</b>, payable at Chennai 600025</li>
+            </ul>
+        </div>
+
+        <a href="https://drive.google.com/file/d/19FTYDkTFPU8-X-E2rZVy1sf0_1eGFWpH/view?usp=sharing" target="_blank"><h3 class="form-link">Requisition Form</h3></a>
+
+        <div class="table">
+            <h3>Mechanical</h3>
+            <table>
+                
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>UTM - Tensile Strength (ASTM D638)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>UTM - Tensile Modulus (ASTM D638)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>UTM - Tensile Elongation at Break (ASTM D638)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>UTM - Flexural Strength (ASTM D790)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>UTM - Flexural Modulus (ASTM D790)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>UTM - Compressive Strength (ASTM D695)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>UTM - Compressive Modulus (ASTM D695)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>UTM - Shear Strength (ASTM D3518)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>UTM - Shear Modulus (ASTM D3518)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>UTM - ILSS (ASTM D2344)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>UTM - Peel Strength (ASTM D6862)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Impact Strength - Izod impact notched (ASTM D256)</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Impact Strength - Charpy (ASTM D6110)</td>
+                        <td>₹ 1500</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Fatigue Strength - per hour (ASTM D3479)</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Hardness - Rockwell (ASTM D785)</td>
+                        <td>₹ 1500</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Hardness - Shore (ASTM D2240)</td>
+                        <td>₹ 1500</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Hardness - Barcol (ASTM D2583)</td>
+                        <td>₹ 1500</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Physics</h3>
+            <table>
+                
+                <tbody>
+                    <tr>
+                        <td>18</td>
+                        <td>Density (ASTM D792)</td>
+                        <td>₹ 1000</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>Water/Moisture Absorption (ASTM D570)</td>
+                        <td>₹ 1000</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Water Contact Angle (hydrophilicity/hydrophobicity) (ASTM D5946)</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Thermal</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>21</td>
+                        <td>Coefficient of linear thermal expansion (ASTM D696)</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>MFI for thermoplastics (ASTM D1238)</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>HDT/VSP (ASTM D648/ASTM D 1525)</td>
+                        <td>₹ 4000</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>LOI (Loss of ignition-ash content analysis) (ASTM D2584)</td>
+                        <td>₹ 1500</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>LOI (ASTM D5630)</td>
+                        <td>₹ 1000</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>Flammability/flame retardancy (UL 94)</td>
+                        <td>₹ 1500</td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td>Matrix/Resin and Filler/fiber volume/content</td>
+                        <td>₹ 3000</td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>TGA (ASTM E1131)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>DSC (for Tg determination)(ASTM D3418)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Rheological</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>30</td>
+                        <td>Viscosity (Brookfield) (ASTM D789)</td>
+                        <td>₹ 1500</td>
+                    </tr>
+                    <tr>
+                        <td>31</td>
+                        <td>Mooney Viscosity (Rubber) (ASTM D1646)</td>
+                        <td>₹ 1500</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Morphological and surface analysis</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>32</td>
+                        <td>SEM</td>
+                        <td>₹ 4000</td>
+                    </tr>
+                    <tr>
+                        <td>33</td>
+                        <td>SEM with EDAX</td>
+                        <td>₹ 5000</td>
+                    </tr>
+                    <tr>
+                        <td>34</td>
+                        <td>BET Surface Area</td>
+                        <td>₹ 4000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Chemical and Spectroscopy</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>35</td>
+                        <td>FTIR spectroscopy (matrix, filler, additive, chemical composition)</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                    <tr>
+                        <td>36</td>
+                        <td>UV Visible spectroscopy</td>
+                        <td>₹ 1500</td>
+                    </tr>
+                    <tr>
+                        <td>37</td>
+                        <td>Proton NMR</td>
+                        <td>₹ 4000</td>
+                    </tr>
+                    <tr>
+                        <td>38</td>
+                        <td>XRD</td>
+                        <td>₹ 3000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Other Tests</h3>
+            <table>
+                
+                <tbody>
+                    <tr>
+                        <td>39</td>
+                        <td>GPC (number average mol wt, weight average mol wt and MWD)</td>
+                        <td>₹ 5000</td>
+                    </tr>
+                    <tr>
+                        <td>40</td>
+                        <td>LOI (Limiting Oxygen Index)</td>
+                        <td>₹ 2500</td>
+                    </tr>
+                    <tr>
+                        <td>41</td>
+                        <td>Vickers Hardness (microindentation)</td>
+                        <td>₹ 1000</td>
+                    </tr>
+                    <tr>
+                        <td>42</td>
+                        <td>Nanoindentation Hardness</td>
+                        <td>₹ 1000</td>
+                    </tr>
+                    <tr>
+                        <td>43</td>
+                        <td>Automatic Densometer and Smoothness test</td>
+                        <td>₹ 4000</td>
+                    </tr>
+                    <tr>
+                        <td>44</td>
+                        <td>Automatic Roundness test</td>
+                        <td>₹ 4000</td>
+                    </tr>
+                    <tr>
+                        <td>45</td>
+                        <td>Taber Stiffness (Plastics, Rubbers and Paper Boards/Sheets)</td>
+                        <td>₹ 1000</td>
+                    </tr>
+                    <tr>
+                        <td>46</td>
+                        <td>Wear test (pin on disc, per hour)</td>
+                        <td>₹ 3000</td>
+                    </tr>
+                    <tr>
+                        <td>47</td>
+                        <td>Taylor Hobson’s Roundness/cylindricity (precision surface finish)</td>
+                        <td>₹ 5000</td>
+                    </tr>
+                    <tr>
+                        <td>48</td>
+                        <td>Corrosion test</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                    <tr>
+                        <td>49</td>
+                        <td>Tear Test</td>
+                        <td>₹ 1500</td>
+                    </tr>
+                    <tr>
+                        <td>50</td>
+                        <td>Gas permeability test (30 mins)</td>
+                        <td>₹ 3000</td>
+                    </tr>
+                    <tr>
+                        <td>51</td>
+                        <td>Water vapour permeability test</td>
+                        <td>₹ 3000</td>
+                    </tr>
+                    <tr>
+                        <td>52</td>
+                        <td>Burst strength</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                    <tr>
+                        <td>53</td>
+                        <td>Particle size analysis</td>
+                        <td>₹ 3000</td>
+                    </tr>
+                    <tr>
+                        <td>54</td>
+                        <td>Microscope (optical)</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                    <tr>
+                        <td>55</td>
+                        <td>Thermal imaging camera (electro-optical)</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                    <tr>
+                        <td>56</td>
+                        <td>Fuel analysis (flash & fire point, heating value, density, stability)</td>
+                        <td>₹ 5000</td>
+                    </tr>
+                    <tr>
+                        <td>57</td>
+                        <td>LCR meter (Dielectric constant)</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                    <tr>
+                        <td>58</td>
+                        <td>Electrical (Power quality, power and energy measurements)</td>
+                        <td>₹ 5000</td>
+                    </tr>
+                    <tr>
+                        <td>59</td>
+                        <td>Physical properties of cement/polymer mixtures and agglomerates</td>
+                        <td>₹ 5000</td>
+                    </tr>
+                    <tr>
+                        <td>60</td>
+                        <td>Cobb test (water absorption by paper and corrugated boards)</td>
+                        <td>₹ 1000</td>
+                    </tr>
+                    <tr>
+                        <td>61</td>
+                        <td>Rancimat Oxidation Stability (Fats and oils)</td>
+                        <td>₹ 1500</td>
+                    </tr>
+                    <tr>
+                        <td>62</td>
+                        <td>Cyclic Voltametry</td>
+                        <td>₹ 2000</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+        
+    </section>
+
+
+
+    <section class="footer">
+
+        <div class="section">
+            <div class="logo-footer">
+                <img src="image/ccm_logo.png" alt="">
+                <p>Innovative Design and Engineering with Composites</p>
+                <a class="contact" href="contact.html">Get In Touch</a>
+                <div class="social-media">
+                    
+                    <a class="social-media" href="https://www.linkedin.com/company/centre-for-composite-materials-ccm/about/?viewAsMember=true" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                    <a class="social-media" href="https://www.instagram.com/ccm_au/" target="_blank"><i class="ri-instagram-line"></i></a>
+                    
+                </div>
+            </div>
+            <div class="address">
+                <div>
+                    <i class="fa ri-building-line"></i>
+                    <address>
+                    <p>College of Engineering,Sardar Patel Rd, <br>Anna University,
+                        Guindy, Chennai,
+                         <br>Tamil Nadu 600025</p>
+                    </address>
+                </div>
+
+                <div>
+                    <i class="fa ri-phone-fill"></i>
+                    <p>044 2235 7602 </5><br>
+                    +91-9840203400</p>
+                </div>
+
+                <div>
+                    <i class="fa ri-mail-send-fill"></i>
+                    <p>ccmdirector@annauniv.edu <br>ccmdirectorau@gmail.com<br>sangeetha@annauniv.edu</p>
+                </div>
+            </div>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="licence">
+        <h6><i class="ri-creative-commons-line"></i><span> CC BY-SA 4.0,</span> Center for Composite Materials</h6>
+        </div>
+
+    <script src="javascript/script.js"></script>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-219px"
+        }
+
+
+        
+    </script>
+</body>
+</html>

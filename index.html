@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCM_AU</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+</head>
+<body>
+    
+    <section class="header">
+
+        <nav>
+
+            <div class="ccm-logo">
+                <a href=""><img src="image/ccm_logo.png" alt=""></a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa ri-close-line nav_close" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="dd.html">Director Desk</a></li>
+                    <li><a href="ppl.html">People</a></li>
+                    <li><a href="test.html">Testing</a></li>
+                    <li><a href="consul.html">Consultancy</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+            
+        <a href="#" class="anna_logo"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+        <i class="fa ri-menu-line nav_burger" onclick="showMenu()"></i>
+
+        </nav>
+
+    </section>
+
+<br><br><br><br><br><br>
+
+    <section class="content">
+        <div class="text-box">
+        <h1>Center for Composite Materials<sub><sub><sub><sub><sub><sub>Estd.15<sup>th</sup> Mar 2024</sub></sub></sub></sub></sub></sub></sub></h1>
+        <img src="image/Simple_Professional_CV_Resume-removebg-preview(1).png" alt="">
+        <h3>Building A Better World With Advanced Composite Materials</h3>
+        </div>
+    </section>
+    <br>
+
+    <div class="about_us">
+        
+        <div class="aboutus_content">
+            <h3>About Us</h3>
+            
+            <P >The Centre for Composite Materials, established 
+                within the prestigious CEG Campus of Anna 
+                University, is dedicated to serving the diverse 
+                needs of industries and institutions involved in 
+                processing, fabrication, testing, and characterization 
+                of composites across various domains. Our focus lies 
+                particularly on polymer composites, catering to 
+                transportation, civil and mechanical structures, 
+                energy, and health sectors. Aligned with Anna University's 
+                commitment to technological excellence, our centre aims 
+                to collaborate closely with industries to address their 
+                requirements in four key areas: Testing and Certification, 
+                Training and Education, Consultancy and Research and 
+                Development. We invite industries to leverage our 
+                expertise and resources and welcome any suggestions to 
+                further enhance our activities. By collaborating with us, 
+                you contribute to the advancement of the composite 
+                materials industry and contribute to the betterment of 
+                society at large. We extend our sincere invitation to 
+                your esteemed organization to support our endeavors and 
+                be a part of our journey towards excellence in composite 
+                materials research and innovation. Together, let's shape 
+                the future of composite materials technology.</P>
+               
+        </div>
+        <div class="aboutus_img">
+           <img class="anna_front" src="image/Anna_Dhurai_statues.png" alt="">
+        </div>
+        
+    </div>
+
+
+
+    <section class="vm">
+        <div>
+            <h2>Vision</h2>
+            <ul>
+                <li>To be a globally leading Centre for composite materials testing and collaborate to facilitate the needs of industries for their product development in the SDG scenario. 
+
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>Mission</h2>
+            <ul>
+                <li>To provide a sophisticated testing facility to validate and assure the industrial quality standards for composite materials used in various engineering applications. 
+
+                </li>
+                <li>To provide quality Research, Development and Technology transfer to potential industries.
+
+                </li>
+                <li>To co-ordinate and collborate with Industrial Stakeholders. 
+
+                </li>
+                <li>To foster effective knowledge transfer between students, researchers and industrial partners. 
+
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="footer">
+
+        <div class="section">
+            <div class="logo-footer">
+                <img src="image/ccm_logo.png" alt="">
+                <p>Innovative Design and Engineering with Composites</p>
+                <a class="contact" href="contact.html">Get In Touch</a>
+                <div class="social-media">
+                    
+                    <a class="social-media" href="https://www.linkedin.com/company/centre-for-composite-materials-ccm/about/?viewAsMember=true" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                    <a class="social-media" href="https://www.instagram.com/ccm_au/" target="_blank"><i class="ri-instagram-line"></i></a>
+                    
+                </div>
+            </div>
+            <div class="address">
+                <div>
+                    <i class="fa ri-building-line"></i>
+                    <address>
+                    <p>College of Engineering,Sardar Patel Rd, <br>Anna University,
+                        Guindy, Chennai,
+                         <br>Tamil Nadu 600025</p>
+                    </address>
+                </div>
+
+                <div>
+                    <i class="fa ri-phone-fill"></i>
+                    <p>044 2235 7602 </5><br>
+                    +91-9840203400</p>
+                </div>
+
+                <div>
+                    <i class="fa ri-mail-send-fill"></i>
+                    <p>ccmdirector@annauniv.edu <br>ccmdirectorau@gmail.com<br>sangeetha@annauniv.edu</p>
+                </div>
+            </div>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="licence">
+        <h6><i class="ri-creative-commons-line"></i><span> CC BY-SA 4.0,</span> Center for Composite Materials</h6>
+        </div>
+
+    <script src="javascript/script.js"></script>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-219px"
+        }
+
+
+        
+    </script>
+</body>
+</html>

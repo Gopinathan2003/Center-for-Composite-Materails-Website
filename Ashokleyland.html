@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCM_AU</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+   
+</head>
+<body>
+    
+    <section class="header">
+
+        <nav>
+
+            <div class="ccm-logo">
+                <a href=""><img src="image/ccm_logo.png" alt=""></a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa ri-close-line nav_close" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="dd.html">Director Desk</a></li>
+                    <li><a href="ppl.html">People</a></li>
+                    <li><a href="test.html">Testing</a></li>
+                    <li><a href="consul.html">Consultancy</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+            
+                <a href="" class="anna_logo"><img src="image/Anna_University_Logo.svg-removebg-preview.png" alt=""></a>
+                <i class="fa ri-menu-line nav_burger" onclick="showMenu()"></i>
+
+        </nav>
+
+    </section>
+
+<br><br><br><br><br><br><br>
+
+<h3>Ashok Leyland -- Center for Composite Materials</h3>
+<div class="consul-content">
+    <div class="logoandcontent">
+        <div class="consullogo" id="bosch">
+            <div class="bosch">
+                <img src="image/ashok-leyland-logo-removebg-preview.png" alt="">
+                
+            </div>
+            <div class="consulimg">
+                <img src="image/ccm_logo.png" alt="">
+            </div>
+        </div>
+        <p>
+            
+        </p>
+    </div>
+</div>
+    
+
+
+
+    <section class="footer">
+
+        <div class="section">
+            <div class="logo-footer">
+                <img src="image/ccm_logo.png" alt="">
+                <p>Innovative Design and Engineering with Composites</p>
+                <a class="contact" href="contact.html">Get In Touch</a>
+                <div class="social-media">
+                    
+                    <a class="social-media" href="https://www.linkedin.com/company/centre-for-composite-materials-ccm/about/?viewAsMember=true" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                    <a class="social-media" href="https://www.instagram.com/ccm_au/" target="_blank"><i class="ri-instagram-line"></i></a>
+                    
+                </div>
+            </div>
+            <div class="address">
+                <div>
+                    <i class="fa ri-building-line"></i>
+                    <address>
+                    <p>College of Engineering,Sardar Patel Rd, <br>Anna University,
+                        Guindy, Chennai,
+                         <br>Tamil Nadu 600025</p>
+                    </address>
+                </div>
+
+                <div>
+                    <i class="fa ri-phone-fill"></i>
+                    <p>044 2235 7602 </5><br>
+                    +91-9840203400</p>
+                </div>
+
+                <div>
+                    <i class="fa ri-mail-send-fill"></i>
+                    <p>ccmdirector@annauniv.edu <br>ccmdirectorau@gmail.com<br>sangeetha@annauniv.edu</p>
+                </div>
+            </div>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="licence">
+        <h6><i class="ri-creative-commons-line"></i><span> CC BY-SA 4.0,</span> Center for Composite Materials</h6>
+        </div>
+
+    <script src="javascript/script.js"></script>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-219px"
+        }
+
+
+        
+    </script>
+</body>
+</html>
